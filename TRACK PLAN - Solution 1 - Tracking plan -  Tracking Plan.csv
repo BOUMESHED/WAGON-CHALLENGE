@@ -1,0 +1,22 @@
+Done?,EventName,Event Description,Source,PropertyName,Property Description,DataType,Expected Values
+Acquisition,,,,,,,
+,page_view,Any page is viewed,Client-side,platform,,enum," Web, Android, iOS"
+,,,,page_name,,string," Home, Pricing, Registration"
+,,,,page_viewed_at,,unixtimestamp,
+Activation,,,,,,,
+,addToCart,The user adds a product to the cart,Client-side,item_name,,String,Edeline Dress
+,,,,item_price,,String,80
+,,,,item_id,,String,ABC123
+,,,,item_quantity,,Numeric,3
+,,,,cart_amont,,Numeric,3
+,,,,add_to_cart_at,,unixtimestamp,
+Revenue,,,,,,,
+,checkout,The user adds a product to the cart,Client-side,item_name,,String,Edeline Dress
+,,,,item_price,,String,80
+,,,,item_id,,String,ABC123
+,,,,item_quantity,,Numeric,3
+,,,,checkout_at,,unixtimestamp,
+Referral / Retention,,,,,,,
+,contact_form,User completes and submits a contact form,Client-side,order_number,,string,-
+,,,,encrypted_email,,string,
+,,,,contact_form_at,,unixtimestamp,
